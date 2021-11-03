@@ -1,0 +1,31 @@
+.item{
+    width: 300px;
+    display: inline-block;
+    position: relative;
+}   
+#container{
+    width: 1000px;
+    margin: 0 auto;
+}
+.discount{
+    position: absolute;
+    top: 0;
+    right: 0;
+    background-color: green;
+}
+.discountred{
+    position: absolute;
+    top: 0;
+    right: 0;
+    background-color: red;
+}
+.heart{
+    display: none;
+    color: red;
+    position: absolute;
+    bottom: 20px;
+    left: 50%;
+}
+.item:hover .heart{
+    color: red;
+}
