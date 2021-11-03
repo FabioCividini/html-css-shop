@@ -11,16 +11,14 @@
 .row{
     margin-bottom: 50px;
 }
-.discount{
+.discount, .discountred{
     position: absolute;
     top: 0;
     right: 0;
     background-color: green;
+    cursor: pointer;
 }
 .discountred{
-    position: absolute;
-    top: 0;
-    right: 0;
     background-color: red;
 }
 .heart{
