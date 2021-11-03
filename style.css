@@ -25,7 +25,9 @@
     position: absolute;
     bottom: 20px;
     left: 50%;
+    
 }
 .item:hover .heart{
     color: red;
+    display: inline-block;
 }
